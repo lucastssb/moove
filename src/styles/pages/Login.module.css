@@ -1,0 +1,115 @@
+.loginContainer {
+  background: var(--blue);
+  background-image: url(../../../public/logo-opaque.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.loginContainer main {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginContainer main .loginContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 22rem;
+  height: 22rem;
+}
+
+.loginContainer main .loginContent img {
+  width: 200px;
+}
+
+.loginContainer main .loginContent h1 {
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.loginContent .welcome .github {
+  display: flex;
+  align-items: center;
+
+  margin: 2rem 0;
+}
+
+.loginContent .welcome .github img {
+  width: 40px;
+  margin-right: 1rem;
+}
+
+.loginContent .welcome .github span {
+  color: var(--text-blue);
+}
+
+.loginContent .welcome form {
+  width: 100%;
+  height: 4rem;
+
+  display: flex;
+}
+
+.loginContent .welcome form input {
+  width: 82%;
+  height: 100%;
+
+  background: rgb(73, 83, 184);
+  background: linear-gradient(
+    90deg,
+    rgba(73, 83, 184, 1) 0%,
+    rgba(73, 84, 184, 0.5628571428571428) 87%,
+    rgba(73, 85, 184, 0.21999999999999997) 100%
+  );
+
+  border: 0;
+  border-radius: 0.25rem 0.25rem;
+  padding: 2rem;
+
+  color: var(--white);
+}
+
+.loginContent .welcome form input::placeholder {
+  color: var(--white);
+}
+
+.loginContent .welcome form a {
+  width: 18%;
+
+  border-radius: 0 0.25rem 0.25rem 0;
+
+  background: var(--dark-blue);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContent .welcome form a img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (min-width: 720px) {
+  .loginContainer {
+    background-size: 50%;
+  }
+
+  .loginContainer main {
+    background-position: left center;
+
+    justify-content: flex-end;
+
+    padding: 0 10rem;
+  }
+}
