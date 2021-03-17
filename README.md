@@ -1,5 +1,5 @@
 <h1 align="center">
-    MoveIt
+    Moove
 </h1>
 
 <p align="center">
@@ -36,7 +36,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) + [Yar
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/lucastssb/moveit.git
+$ git clone https://github.com/lucastssb/moove.git
 
 # Install dependencies
 $ yarn
