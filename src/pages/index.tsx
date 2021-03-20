@@ -1,7 +1,6 @@
 import Head from "next/head";
-import { useRouter } from "next/router";
 import { GetServerSideProps } from "next";
-import React, { useEffect } from "react";
+import React from "react";
 import { CountdownProvider } from "../contexts/CountdownContext";
 import CompletedChallenges from "../components/CompletedChallenges";
 import Countdown from "../components/Countdown";

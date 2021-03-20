@@ -49,8 +49,13 @@
   margin-right: 1rem;
 }
 
-.signInContent .welcome .github span {
+.signInContent .welcome .github a {
   color: var(--text-blue);
+  cursor: pointer;
+}
+
+.signInContent .welcome .github a:hover {
+    color: var(--white);
 }
 
 .signInContent .welcome form {
